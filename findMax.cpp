@@ -28,7 +28,7 @@ void out() {
 int main(){
 
     // 입력부분
-    inputArr();
+    // inputArr();
 
     // 계산부분
     calculate();
