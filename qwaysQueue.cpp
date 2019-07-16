@@ -1,7 +1,12 @@
-// 퀸의 움직임
+// 퀸의 자리배치
+// Queue 이용한 퀸 자리배치
+#include <stdio.h>
+#include <queue>
 
-#include<stdio.h>
+bool visited[101];
 int n, ans, col[10], inc[20], dec[20];
+
+/*
 
 void solve(int r){
   if(r>n)    {
@@ -17,9 +22,13 @@ void solve(int r){
   }
 }
 
+
 int main()
 {
   scanf("%d", &n);
   solve(1);
   printf("%d", ans);
 }
+*/
+
+
