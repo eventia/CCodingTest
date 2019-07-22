@@ -9,10 +9,10 @@ void solve(int r){
     return;
   }
   for(int i=1; i<=n; i++) {
-    if(!col[i] && !inc[r+i] && !dec[n+(r-i)+1]) {
-      col[i]=inc[r+i]=dec[n+(r-i)+1]=1;
+    if(!col[i] && !inc[r+i] && !dec[n+(r-i)]) {
+      col[i]=inc[r+i]=dec[n+(r-i)]=1;
       solve(r+1);
-      col[i]=inc[r+i]=dec[n+(r-i)+1]=0;
+      col[i]=inc[r+i]=dec[n+(r-i)]=0;
     }
   }
 }

@@ -25,7 +25,7 @@ void dfs(int a, int b, int c) {
 }
 */
 
-// 깊이 우선 탐색
+// 깊이 우선 탐색(Depth-First Search)
 /*
 void dfs(int a, int b, int c){
     A[a][b]=c;
@@ -36,7 +36,7 @@ void dfs(int a, int b, int c){
 }
 */
 
-// 너비 우선 탐색
+// 너비 우선 탐색(Breadth-First Search)
 
 void dfs(int a, int b, int c){
   std::queue<VERTEX> Q;
